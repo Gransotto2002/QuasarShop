@@ -104,7 +104,7 @@ export default defineComponent({
         notifyError(error.message)
       }
     }
-
+    
     const handleGetConfig = async () => {
       try{
         config = await listPublic(table, user.value.id)
@@ -113,9 +113,18 @@ export default defineComponent({
         notifyError(error.message)
       }
     }
+    const handleVerifyConfig = async () => {
+      const data = await listPublic(table, user.value.id)
+
+      if (data.length == 0) {
+        return
+      }
+      handleGetConfig()
+    }
+
 
     onMounted(() => {
-      handleGetConfig()
+      handleVerifyConfig()
     })
 
     return{
