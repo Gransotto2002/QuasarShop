@@ -12,7 +12,7 @@
         />
 
         <q-toolbar-title>
-          Estoque
+          ShopV2
         </q-toolbar-title>
         <q-btn-dropdown color="primary" icon="person">
           <q-list>

@@ -3,7 +3,7 @@
     <q-header elevated>
       <q-toolbar>
         <q-toolbar-title>
-          Quasar Auth
+          ShopV2
         </q-toolbar-title>
       </q-toolbar>
     </q-header>
