@@ -1,13 +1,28 @@
 ## Shop V2 With Quasar Framework
 
-<div display="flex">
-  ![WhatsApp Image 2022-10-13 at 17 26 44](https://user-images.githubusercontent.com/101595139/195705018-9a81536a-6967-4877-8e7c-5d737c070c45.jpeg)
-  ![WhatsApp Image 2022-10-13 at 17 26 43 (1)](https://user-images.githubusercontent.com/101595139/195705029-8408d509-69fd-43df-ac2b-aa459f94e368.jpeg)
-  ![WhatsApp Image 2022-10-13 at 17 26 43](https://user-images.githubusercontent.com/101595139/195705040-2c8cb61a-e95c-47d1-98d7-479c3d8fbdc5.jpeg)
-  ![WhatsApp Image 2022-10-13 at 17 26 42 (2)](https://user-images.githubusercontent.com/101595139/195705057-416b54b5-0130-4790-9c13-e2056ac5fd47.jpeg)
-  ![WhatsApp Image 2022-10-13 at 17 26 42 (1)](https://user-images.githubusercontent.com/101595139/195705064-c2c50675-b486-4385-a1e9-545b11850c04.jpeg)
-  ![WhatsApp Image 2022-10-13 at 17 26 42](https://user-images.githubusercontent.com/101595139/195705078-b1968028-c03a-45d9-887c-1976927fa018.jpeg)
-  ![WhatsApp Image 2022-10-13 at 17 26 40](https://user-images.githubusercontent.com/101595139/195705086-4af4a981-3db0-4738-93ce-80a897a2f5fd.jpeg)
-  ![WhatsApp Image 2022-10-13 at 17 26 41](https://user-images.githubusercontent.com/101595139/195705091-5553e202-3e12-4346-a4aa-a4f016caf51f.jpeg)
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/101595139/195709585-f23206f7-bad2-4919-97ec-7f334c73a1d9.png"/>
+  <img src="https://user-images.githubusercontent.com/101595139/195711011-805e0397-25ee-4ebf-9f3f-1bf153bcdac6.png" />
+  <img src="https://user-images.githubusercontent.com/101595139/195711061-7d35a449-d858-4187-89de-59d6125c2166.png" />
+  <img src="https://user-images.githubusercontent.com/101595139/195711182-ccca4a17-cbd0-43dc-b103-aac5a2b66d4b.png" />
 </div>
 
+<hr>
+
+This project was developed to study Vuejs using the Quasar Framework and Supabase database
+The project is online at the URL : https://shopv2.netlify.app/me
+
+<h2>How to use on localhost :</h2>
+<div> Download the repository with the command:</div>
+$ git clone https://github.com/gransottodev/QuasarShop.git
+
+<h3> Run: </h3>
+Enter the file folder and run the command "yarn dev"
+<hr>
+
+<h2> Database </h2>
+
+To carry out this project I decided to use the supabase database, which already has the authentication settings with some providers, such as email, facebook, icloud and etc.
+It has easy-to-understand documentation and performs some tasks automatically, such as email confirmation and password reset.
+
+Documentation:  https://supabase.com
